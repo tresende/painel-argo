@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <AssemblyName>IBM.FCAGroup.FiatApp.DataAccess</AssemblyName>
+    <RootNamespace>IBM.FCAGroup.FiatApp.DataAccess</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="6.10.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Models\Models.csproj" />
+  </ItemGroup>
+
+</Project>

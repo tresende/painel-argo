@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <AssemblyName>IBM.FCAGroup.FiatApp.Services</AssemblyName>
+    <RootNamespace>IBM.FCAGroup.FiatApp.Services</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="6.10.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj" />
+    <ProjectReference Include="..\IBM.WatsonDeveloperCloud.Conversation.v1\IBM.WatsonDeveloperCloud.Conversation.v1.csproj" />
+    <ProjectReference Include="..\IBM.WatsonDeveloperCloud\IBM.WatsonDeveloperCloud.csproj" />
+    <ProjectReference Include="..\Models\Models.csproj" />
+  </ItemGroup>
+
+</Project>
